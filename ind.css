@@ -106,20 +106,25 @@ gap: 15px;
        font-size: 10px;
        display: flex;
        align-items: center;
-       justify-content: center;
+       justify-content:space-evenly;
        
         
     }
     .elem{
       font-size: 10px;
-      padding-left: 10px;
-      padding-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+      margin-right: 12px;
+      /* padding-left: 10px;
+      padding-right: 10px; */
       
     }
     .box{
-        font-size: 20px;
-        font-weight: 600;
-        padding: 5px 20px;
+     
+        font-size: 15px;
+        font-weight: 900;
+        padding: 5px 10px;
         background-color: aliceblue;
         border-radius: 5px;
         color: rgb(14, 223, 39);
